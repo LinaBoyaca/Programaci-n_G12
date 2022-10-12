@@ -1,0 +1,52 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{graphicx}
+
+%\lhead{\includegraphics[width=0.2\textwidth]{nyush-logo.pdf}}
+\fancypagestyle{firstpage}{%
+  \lhead{programacion}
+  \rhead{
+  propuesta proyecto final}
+}
+
+%%%% PROJECT TITLE
+\title{control de personal\\
+        \Large \emph{programacion}}
+
+%%%% NAMES OF ALL THE STUDENTS INVOLVED (first-name last-name)
+\author{\href{mailto:author1@nyu.edu}{ Lina Maria Boyacá Ávila \\ Harold Santiago Galindo Lara \\ Karen Gissell Buitrago Osorio \\ Daniel alexander riaño }} 
+
+\date{\vspace{-5ex}} %NO DATE
+
+
+\begin{document}
+\maketitle
+\thispagestyle{firstpage}
+
+
+\section*{Problema: }
+
+la falta de control de la asistencia del personal de una empresa, colegio u universidad y de la cuenta del ingreso y la salida de cada empleado.
+
+
+\section*{Objetivo:}
+
+el objetivo de nuestro código es llevar a cabo el conteo del ingreso y la salida de cada empleado de una empresa o estudiante de un colegio u universidad y de esta manera guardar registro de la asistencia de una forma más ordenada y precisa.
+
+\section*{Origen de los datos:}
+
+el origen de los datos proviene de cada usuario y de las herramientas implementadas anteriormente en clase.
+
+\section*{diagrama}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{diagrama.jpeg}
+    \caption{diagrama}
+    \label{fig:my_label}
+\end{figure}
+
+\end{document}
